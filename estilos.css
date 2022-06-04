@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Forum&family=IBM+Plex+Sans:wght@600;700&family=Kumbh+Sans:wght@400;500;600;700;800&family=Laila&family=Lexend:wght@700&family=Marcellus&family=Noto+Sans:wght@700&family=Poppins:wght@500;700&display=swap');
+
+*{
+    margin: 0px auto;
+box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: #fcfffc;
+}
+
+.header{
+width: 100%;
+max-width: 1200px;
+height: 15px;
+background-color:  #ffc9b9;
+
+}
+
+.header__h4{
+    color: #212529;
+    text-align: center;
+    position: relative;
+    padding: 3px;
+    font-family: 'Belleza', sans-serif;
+    font-weight:400;
+    font-size: 8px;
+    color: black;
+   
+}
+
+.seccion{
+    max-width: 1200px;
+    height: 40px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+    background-blend-mode: screen;
+}
+
+.seccion__h1{
+    position: relative;
+    margin-left: 40px;
+    margin-top: 7px;
+    padding: 2px;
+    font-family: 'Belleza', sans-serif;
+    font-size: 20px;
+    color:#212529;
+   
+}
+
+.seccion__anchor{
+    text-decoration: none;
+}
+
+.seccion__div{
+    text-align: center;
+    margin-top: -24px;
+    width: 450px;
+    height: 30px;
+    margin-left: 290px;
+    justify-content: center;
+}
+
+.seccion__nav{
+    width: 280px;
+
+    /*background-color: lo usamos para probar el ancho del contenido*/
+}
+
+.seccion__ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    right: 60px;
+    top: -2px;
+}
+
+
+.seccion__boton{
+    text-decoration: none;
+    color: black;
+    font-family: 'Belleza', sans-serif;
+    font-weight:550;
+    font-size: 11px;
+   
+ 
+}
+
+.seccion__boton:hover{
+    color: darkolivegreen;
+}
+
+
+
+.seccionDos{
+    width: 100%;
+    max-width: 1200px;
+    max-height: 1000px;
+    height: 400px;
+    overflow: hidden;
+    object-fit: contain;
+
+}
+
+.seccionDos__pict{
+    width: 1000px;
+    height: 700px;
+    max-width: 1000px;
+    
+}
+
+.seccionDos__ima{
+    position: relative;
+    right: -500px;
+    width: 400px;
+    height: 400px;
+    margin-top: 35px;
+    object-fit: cover;
+
+}
+
+
+
+.seccionDos__div{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    margin-top: -380px;
+    margin-left: 40px;
+    text-align: left;
+    font-family: 'Belleza', sans-serif;
+    font-weight: 530;
+    color: #212529;
+
+
+}
+
+.seccionDos__titulo{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 500;
+    padding: 0px 80px 0px 0px;
+}
+
+.seccionDos__parrafo{
+    font-family: ;
+    font-size: 9px;
+    font-weight: 100;
+    line-height: 1.8;
+    padding: 0px 50px 0px 0px;
+   
+    
+}
+
+.seccionDos__boton{
+   position: relative;
+   margin-left: 2px;
+  
+   color: black;
+   font-family: 'Belleza', sans-serif;
+   font-weight: 500;
+   font-size: 10px;
+
+}
+
+.seccionTres{
+    width: 100%;
+    max-width: 1200px;
+    height: 470px;
+    overflow: hidden;
+    display: flex;
+    margin-left: 55px;
+    margin-top: 70px;
+
+}
+
+.seccionTres__div1{
+    width: 180px;
+    height: 340px;
+    border: 1px solid black;
+    border-radius: 45px;
+    position: relative;
+    margin: 30px 44px;
+    overflow: hidden;
+   
+}
+
+
+.seccionTres__img{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    position: relative;
+  
+    align-items: center;
+}
+
+.seccionTres__h3{
+text-align: center;
+padding: 12px 29px;
+font-family: 'Belleza', sans-serif;
+font-size: 12px;
+   font-weight: 500;
+
+
+}
+
+.seccionTres__flechaImg{
+ display: flex;
+ justify-content: center;
+ width: 20px;
+ height: 14px;
+ margin-top: 60px;
+}
+
+.seccionTres__div2{
+    width: 180px;
+    height: 340px;
+    border: 1px solid black;
+    border-radius: 45px;
+    position: relative;
+    margin: 30px 44px;
+    overflow: hidden;
+  
+    
+}
+
+
+.seccionTres__img{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    position: relative;
+  
+    align-items: center;
+}
+
+.seccionTres__h3{
+    text-align: center;
+    padding: 12px 29px;
+}
+
+.seccionTres__flechaImg{
+ display: flex;
+ justify-content: center;
+ width: 20px;
+ height: 14px;
+ margin-top: 60px;
+}
+
+
+
+.seccionTres__div3{
+    width: 180px;
+    height: 340px;
+    border: 1px solid black;
+    border-radius: 45px;
+    position: relative;
+    margin: 30px 44px;
+    overflow: hidden;
+  
+    
+}
+
+
+.seccionTres__img{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    position: relative;
+  
+    align-items: center;
+}
+
+.seccionTres__h3{
+    text-align: center;
+    padding: 12px 29px;
+}
+
+.seccionTres__flechaImg{
+ display: flex;
+ justify-content: center;
+ width: 20px;
+ height: 14px;
+ margin-top: 60px;
+}
+
+
+
+
+
+.seccionDos__divIconos{
+    width: 350px;
+    height: 16px;
+    display: flex;
+    margin-right: 102px;
+    background-color:  
+    position: relative;
+
+}
+
+.seccionDos__botonIcono{
+    font-family: 'Belleza', sans-serif;
+
+    text-decoration: none;
+    font-size: 13px;
+    color: 212529;
+    
+
+
+}
+
+.seccionCuatro{
+   width: 100%;
+   height: 700px;
+   max-width: 1200%;
+   overflow: hidden;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.seccionCuatro__div1{
+    width: 300px;
+    height: 400px;
+   
+    position: relative;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+
+.seccionCuatro__img{
+width: 100%;
+height: 250px;
+object-fit: cover;
+background-size: cover;
+}
+
+
+.seccionCuatro__h3{
+color:darksalmon;
+position: relative;
+font-family: 'Belleza', sans-serif;
+
+font-weight: 400;
+font-size: medium;
+margin-top: 10px;
+}
+
+.seccionCuatro__parrafo{
+   position: relative;
+   margin-top: 3px;
+   font-family: 'Belleza', sans-serif;
+
+}
+
+.seccionCuatro__h1{
+    width: 400px;
+    position: relative;
+   text-align: center;
+    margin-top: 50px;
+    font-family: 'Belleza', sans-serif;
+
+    font-weight: 400;
+    color:#212529;
+    margin-bottom: 10px;
+}
+
+.seccionCuatro__div2{
+    width: 300px;
+    height: 400px;
+  
+    position: relative;
+    margin-top: -400px;
+    margin-right: 150px;
+}
+
+.miles{
+    width: 280px;
+    height: 50px;
+    color: white;
+  
+}
+
+.miles__pla{
+font-family: 'Belleza', sans-serif;
+font-weight: 100;
+color: black;
+font-size: 13px;
+margin-top: 20px;
+margin-left: -295px;
+}
+
+.miles__asd{
+    font-family:'Belleza', sans-serif ;
+    font-size: 12px;
+    color: black;
+    font-weight: 300;
+    margin-bottom: 4px;
+    margin-left: -295px;
+
+    
+}
+
+.grid{
+    width: 600px;
+    height: 500px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.foto{
+    width: 150px;
+    color: black;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:'Belleza', sans-serif ;
+
+    justify-content:center;
+    align-items: flex-end;
+}
+
+.foto1{
+    background-color: grey;
+    background-image: url(./imagenes/3.jpg);
+
+}
+   
+.foto2{
+    background-color: grey;
+    background-image: url(./imagenes/4.jpg);
+
+}
+.foto3{
+    background-color: grey;
+    background-image: url(./imagenes/5.jpg);
+
+}
+.foto4{
+    background-color: grey;
+    background-image: url(./imagenes/6.jpg);
+
+}
+.foto5{
+    background-color: grey;
+    background-image: url(./imagenes/7.jpg);
+
+}
+.foto6{
+    background-color: grey;
+    background-image: url(./imagenes/8.jpg);
+
+}
+.foto7{
+    background-color: grey;
+    background-image: url(./imagenes/9.jpg);
+}
+
+.foto8{
+    background-color: grey;
+    background-image: url(./imagenes/severin-candrian-RHe-ebrSUTE-unsplash.jpg);
+
+
+}
+.foto9{
+    background-color: grey;
+    background-image: url(./imagenes/foto\ 3\ plantas\ de\ interior.jpg);
+
+
+}
+
+.tips__sectionencabezado{
+    margin-bottom: 30px;
+    
+}
+
+
+
+.tips__div1{
+    width: 100%;
+    height: 100px;
+    margin-top: 0px;
+}
+
+.tips__img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.tips__h1{
+    margin-top: -180px;
+    text-align: center;
+    display: block;
+    color: white;
+    font-family:'Belleza', sans-serif ;
+    font-weight: 100;
+    font-size: 28px;
+    width: 250px;
+}
+
+.tips__button{
+    position: relative;
+    margin-left: 435px;
+    margin-top: 40px;
+    border: none;
+    padding: 4px 17px;
+    border-radius: 30px;
+    border: 0.5px solid white;
+    text-decoration: none;
+    background-color: #ffffff52;
+    font-family:'Belleza', sans-serif ;
+    font-weight: 200;
+
+
+}
+
+.tips__but{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.tips__div{
+    display: flex;
+    margin-top: 200px;
+}
+
+.tips__sectionabajo{
+    width: 800px;
+    height: 700px;
+    border: solid 2px black;
+    margin-top: 100px;
+}
+
+
+
