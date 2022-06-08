@@ -32,7 +32,7 @@ background-color:  #ffc9b9;
 }
 
 .seccion{
-    max-width: 1200px;
+    max-width: 1100px;
     height: 40px;
     width: 100%;
     overflow: hidden;
@@ -92,7 +92,7 @@ background-color:  #ffc9b9;
 }
 
 .seccion__boton:hover{
-    color: darkolivegreen;
+    color: #ff9777;
 }
 
 
@@ -108,7 +108,7 @@ background-color:  #ffc9b9;
 }
 
 .seccionDos__pict{
-    width: 1000px;
+    width: 900px;
     height: 700px;
     max-width: 1000px;
     
@@ -151,7 +151,7 @@ background-color:  #ffc9b9;
 }
 
 .seccionDos__parrafo{
-    font-family: ;
+
     font-size: 9px;
     font-weight: 100;
     line-height: 1.8;
@@ -161,14 +161,23 @@ background-color:  #ffc9b9;
 }
 
 .seccionDos__boton{
-   position: relative;
-   margin-left: 2px;
-  
-   color: black;
-   font-family: 'Belleza', sans-serif;
-   font-weight: 500;
-   font-size: 10px;
+    position: relative;
+    margin-left: 2px;
+    font-weight: 500;
+    font-size: 10px;
+    position: relative;
+    padding: 4px 17px;
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: #ffc9b9;
+    font-family:'Belleza', sans-serif;
+    color: black
+  }
 
+  
+.seccionDos__boton:hover{
+    background-color: #fcb29c;
+    transition: background-color 0.5s;
 }
 
 .seccionTres{
@@ -302,7 +311,7 @@ font-size: 12px;
     height: 16px;
     display: flex;
     margin-right: 102px;
-    background-color:  
+
     position: relative;
 
 }
@@ -397,6 +406,7 @@ color: black;
 font-size: 13px;
 margin-top: 20px;
 margin-left: -295px;
+
 }
 
 .miles__asd{
@@ -413,75 +423,98 @@ margin-left: -295px;
 .grid{
     width: 600px;
     height: 500px;
+    max-height: max-content;
     margin-top: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+   position: relative;
 }
 
 .foto{
-    width: 150px;
+    height: 200px;
+    width: 160px;
     color: black;
     display: flex;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family:'Belleza', sans-serif ;
-
-    justify-content:center;
-    align-items: flex-end;
+   
+    justify-content: center;
+    transition: .1s;
+    cursor: pointer;
+   
+ 
 }
 
-.foto1{
-    background-color: grey;
-    background-image: url(./imagenes/3.jpg);
+.foto:hover .foto__botongrid{
+display: block;
 
+
+}
+
+.foto__botongrid{
+    position: relative;
+    max-width: max-content;
+    height: 30px;
+    border: none;
+    text-decoration: none;
+    padding: 2px 2px;
+    
+    background-color: #fdc6b5b6;
+    font-family:'Belleza', sans-serif;
+    font-size: 13;
+  
+    color: rgb(0, 0, 0);
+    top: 75px;
+    display: none;
+    cursor: pointer;
+
+}
+
+
+
+.foto1{
+background-image: url(./imagenes/3.jpg);
+    
 }
    
 .foto2{
-    background-color: grey;
-    background-image: url(./imagenes/4.jpg);
+background-image: url(./imagenes/4.jpg);
 
 }
 .foto3{
-    background-color: grey;
-    background-image: url(./imagenes/5.jpg);
+background-image: url(./imagenes/11.jpg);
 
 }
 .foto4{
-    background-color: grey;
-    background-image: url(./imagenes/6.jpg);
+background-image: url(./imagenes/15.jpg);
 
 }
 .foto5{
-    background-color: grey;
-    background-image: url(./imagenes/7.jpg);
+background-image: url(./imagenes/7.jpg);
 
 }
 .foto6{
-    background-color: grey;
-    background-image: url(./imagenes/8.jpg);
+background-image: url(./imagenes/14.jpg);
 
 }
 .foto7{
-    background-color: grey;
-    background-image: url(./imagenes/9.jpg);
+background-image: url(./imagenes/9.jpg);
 }
 
 .foto8{
-    background-color: grey;
-    background-image: url(./imagenes/severin-candrian-RHe-ebrSUTE-unsplash.jpg);
-
+background-image: url(./imagenes/17.jpg);
 
 }
+
 .foto9{
-    background-color: grey;
-    background-image: url(./imagenes/foto\ 3\ plantas\ de\ interior.jpg);
+background-image: url(./imagenes/18.jpg);
 
 
 }
 
 .tips__sectionencabezado{
-    margin-bottom: 30px;
+ margin-bottom: 30px;
     
 }
 
@@ -526,11 +559,22 @@ margin-left: -295px;
 
 }
 
+.tips__button:hover{
+background-color:  #ffc9b9;
+border: none;
+transition: background-color border 0.5s;
+}
+
+
 .tips__but{
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
 
+.tips__but:hover{
+    color: #212529;
+    transition: color 0.5s;
+}
 
 
 .tips__div{
