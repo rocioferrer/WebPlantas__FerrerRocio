@@ -1,9 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Forum&family=IBM+Plex+Sans:wght@600;700&family=Kumbh+Sans:wght@400;500;600;700;800&family=Laila&family=Lexend:wght@700&family=Marcellus&family=Noto+Sans:wght@700&family=Poppins:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Forum&family=Judson:ital,wght@0,400;0,700;1,400&family=Marcellus&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&family=Nanum+Gothic:wght@400;700;800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&family=Tajawal:wght@400;500;700;800;900&family=Tenor+Sans&display=swap');
 
-*{
-    margin: 0px auto;
-box-sizing: border-box;
-}
 
 
 
@@ -11,507 +7,190 @@ body{
     background-color: #fcfffc;
 }
 
-.header{
-width: 100%;
-max-width: 1200px;
-height: 15px;
-background-color:  #ffc9b9;
 
-}
 
-.header__h4{
-    color: #212529;
-    text-align: center;
-    position: relative;
-    padding: 3px;
-    font-family: 'Belleza', sans-serif;
-    font-weight:400;
-    font-size: 8px;
-    color: black;
+
+.navbar-brand{
+margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #6bbf59;
+    font-weight: 700;
    
 }
 
-.seccion{
-    max-width: 1100px;
-    height: 40px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
-    background-blend-mode: screen;
+.navbar-brand:hover{
+    color: #ff784f;
 }
 
-.seccion__h1{
-    position: relative;
-    margin-left: 40px;
-    margin-top: 7px;
-    padding: 2px;
-    font-family: 'Belleza', sans-serif;
-    font-size: 20px;
-    color:#212529;
-   
-}
-
-.seccion__anchor{
-    text-decoration: none;
-}
-
-.seccion__div{
-    text-align: center;
-    margin-top: -24px;
-    width: 450px;
-    height: 30px;
-    margin-left: 290px;
-    justify-content: center;
-}
-
-.seccion__nav{
-    width: 280px;
-
-    /*background-color: lo usamos para probar el ancho del contenido*/
-}
-
-.seccion__ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    right: 60px;
-    top: -2px;
-}
-
-
-.seccion__boton{
+.nav-item{
     text-decoration: none;
     color: black;
-    font-family: 'Belleza', sans-serif;
-    font-weight:550;
-    font-size: 11px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+    font-size: 9px;
+    margin-top: 26px;
    
  
 }
 
-.seccion__boton:hover{
-    color: #ff9777;
-}
 
 
-
-.seccionDos{
-    width: 100%;
-    max-width: 1200px;
-    max-height: 1000px;
-    height: 400px;
-    overflow: hidden;
-    object-fit: contain;
-
-}
-
-.seccionDos__pict{
-    width: 900px;
-    height: 700px;
-    max-width: 1000px;
-    
-}
-
-.seccionDos__ima{
-    position: relative;
-    right: -500px;
-    width: 400px;
-    height: 400px;
-    margin-top: 35px;
-    object-fit: cover;
-
-}
-
-
-
-.seccionDos__div{
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    overflow: hidden;
-    position: relative;
-    margin-top: -380px;
-    margin-left: 40px;
-    text-align: left;
-    font-family: 'Belleza', sans-serif;
-    font-weight: 530;
-    color: #212529;
-
-
-}
-
-.seccionDos__titulo{
-    margin-top: 40px;
-    margin-bottom: 20px;
-    font-size: 35px;
-    font-weight: 500;
-    padding: 0px 80px 0px 0px;
-}
-
-.seccionDos__parrafo{
-
+.form-control{
+    margin-top: 15px;
+    height: 25px;
+    width: 100px;
     font-size: 9px;
-    font-weight: 100;
-    line-height: 1.8;
-    padding: 0px 50px 0px 0px;
-   
-    
-}
+    font-family: 'Montserrat', sans-serif;
 
-.seccionDos__boton{
-    position: relative;
-    margin-left: 2px;
+
+}
+.titulo{
+    font-family:'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 10px;
-    position: relative;
-    padding: 4px 17px;
-    border-radius: 30px;
-    text-decoration: none;
-    background-color: #ffc9b9;
-    font-family:'Belleza', sans-serif;
-    color: black
-  }
-
-  
-.seccionDos__boton:hover{
-    background-color: #fcb29c;
-    transition: background-color 0.5s;
-}
-
-.seccionTres{
-    width: 100%;
-    max-width: 1200px;
-    height: 470px;
-    overflow: hidden;
-    display: flex;
-    margin-left: 55px;
-    margin-top: 70px;
-
-}
-
-.seccionTres__div1{
-    width: 180px;
-    height: 340px;
-    border: 1px solid black;
-    border-radius: 45px;
-    position: relative;
-    margin: 30px 44px;
-    overflow: hidden;
-   
-}
-
-
-.seccionTres__img{
-    width: 100%;
-    height: 170px;
-    object-fit: cover;
-    position: relative;
-  
-    align-items: center;
-}
-
-.seccionTres__h3{
-text-align: center;
-padding: 12px 29px;
-font-family: 'Belleza', sans-serif;
-font-size: 12px;
-   font-weight: 500;
-
-
-}
-
-.seccionTres__flechaImg{
- display: flex;
- justify-content: center;
- width: 20px;
- height: 14px;
- margin-top: 60px;
-}
-
-.seccionTres__div2{
-    width: 180px;
-    height: 340px;
-    border: 1px solid black;
-    border-radius: 45px;
-    position: relative;
-    margin: 30px 44px;
-    overflow: hidden;
-  
-    
-}
-
-
-.seccionTres__img{
-    width: 100%;
-    height: 170px;
-    object-fit: cover;
-    position: relative;
-  
-    align-items: center;
-}
-
-.seccionTres__h3{
-    text-align: center;
-    padding: 12px 29px;
-}
-
-.seccionTres__flechaImg{
- display: flex;
- justify-content: center;
- width: 20px;
- height: 14px;
- margin-top: 60px;
-}
-
-
-
-.seccionTres__div3{
-    width: 180px;
-    height: 340px;
-    border: 1px solid black;
-    border-radius: 45px;
-    position: relative;
-    margin: 30px 44px;
-    overflow: hidden;
-  
-    
-}
-
-
-.seccionTres__img{
-    width: 100%;
-    height: 170px;
-    object-fit: cover;
-    position: relative;
-  
-    align-items: center;
-}
-
-.seccionTres__h3{
-    text-align: center;
-    padding: 12px 29px;
-}
-
-.seccionTres__flechaImg{
- display: flex;
- justify-content: center;
- width: 20px;
- height: 14px;
- margin-top: 60px;
-}
-
-
-
-
-
-.seccionDos__divIconos{
-    width: 350px;
-    height: 16px;
-    display: flex;
-    margin-right: 102px;
-
-    position: relative;
-
-}
-
-.seccionDos__botonIcono{
-    font-family: 'Belleza', sans-serif;
-
-    text-decoration: none;
-    font-size: 13px;
-    color: 212529;
-    
-
-
-}
-
-.seccionCuatro{
-   width: 100%;
-   height: 700px;
-   max-width: 1200%;
-   overflow: hidden;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-}
-
-.seccionCuatro__div1{
-    width: 300px;
-    height: 400px;
-   
-    position: relative;
     margin-top: 60px;
-    margin-left: 150px;
+    font-size: 33px;
+   
 }
 
-.seccionCuatro__img{
-width: 100%;
-height: 250px;
-object-fit: cover;
-background-size: cover;
-}
-
-
-.seccionCuatro__h3{
-color:darksalmon;
-position: relative;
-font-family: 'Belleza', sans-serif;
-
-font-weight: 400;
-font-size: medium;
-margin-top: 10px;
-}
-
-.seccionCuatro__parrafo{
-   position: relative;
-   margin-top: 3px;
-   font-family: 'Belleza', sans-serif;
-
-}
-
-.seccionCuatro__h1{
-    width: 400px;
-    position: relative;
-   text-align: center;
-    margin-top: 50px;
-    font-family: 'Belleza', sans-serif;
-
-    font-weight: 400;
-    color:#212529;
-    margin-bottom: 10px;
-}
-
-.seccionCuatro__div2{
-    width: 300px;
-    height: 400px;
+.lead{
+    font-family:'Montserrat', sans-serif;
   
-    position: relative;
-    margin-top: -400px;
-    margin-right: 150px;
-}
-
-.miles{
-    width: 280px;
-    height: 50px;
-    color: white;
+    font-size: 14px;
   
-}
-
-.miles__pla{
-font-family: 'Belleza', sans-serif;
-font-weight: 100;
-color: black;
-font-size: 13px;
-margin-top: 20px;
-margin-left: -295px;
 
 }
 
-.miles__asd{
-    font-family:'Belleza', sans-serif ;
-    font-size: 12px;
-    color: black;
-    font-weight: 300;
-    margin-bottom: 4px;
-    margin-left: -295px;
-
+.happy{
+    color: #63ad2a;
     
 }
+
+.bloomnegrita{
+color: #6bbf59;   
+font-weight: 500;
+cursor: pointer;
+}
+
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    background-color: #f4f4f5;
+   
+}
+
+.btn:hover{
+    background-color: #63ad2ace;
+    color: #fcfffc;
+}
+
+
+.tituloTrio{
+   margin-top: 15px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.botonTrio{
+    text-decoration: none;
+    color: #212529;
+}
+
+.botonTrio:hover{
+    color: #63ad2a;
+}
+
+.parrafoTrio{
+    font-size: 14px;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.icono{
+    margin-left: 100px;
+    cursor: pointer;
+    margin-top: -23px;
+}
+
+.tituloconsejos{
+    font-family:'Montserrat', sans-serif ;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 150px;
+    padding: 0px 160px 0px 0px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.img-thumbnail{
+    width: 330px;
+    height: 330px;
+    border: none;
+}
+
+.titulocuidadosnota{
+font-family:'Montserrat', sans-serif ;
+font-size: 18px;
+margin-top: 9px;
+margin-left: 5px;
+}
+
+.parrafocuidadosnota{
+    margin-left: 5px; 
+    text-decoration: none;
+    border-bottom: none;
+    font-style: italic;
+}
+
+.botoncuidados{
+    color: #212529;
+    text-decoration: none;
+}
+
+.botoncuidados:hover{
+    color: #63ad2a;
+}
+
+.titulotipsconocelas-md{
+    font-family:'Montserrat', sans-serif ;
+    font-size: 17px;   
+margin-top: 30px;
+margin-left: 155px;
+}
+
+.subtitulotipsconocelas{
+    font-family:'Montserrat', sans-serif ;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
 
 .grid{
     width: 600px;
     height: 500px;
-    max-height: max-content;
     margin-top: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-   position: relative;
-}
-
-.foto{
-    height: 200px;
-    width: 160px;
-    color: black;
-    display: flex;
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin-left: 155px;
    
-    justify-content: center;
-    transition: .1s;
-    cursor: pointer;
-   
- 
-}
-
-.foto:hover .foto__botongrid{
-display: block;
-
-
-}
-
-.foto__botongrid{
-    position: relative;
-    max-width: max-content;
-    height: 30px;
-    border: none;
-    text-decoration: none;
-    padding: 2px 2px;
-    
-    background-color: #fdc6b5b6;
-    font-family:'Belleza', sans-serif;
-    font-size: 13;
-  
-    color: rgb(0, 0, 0);
-    top: 75px;
-    display: none;
-    cursor: pointer;
-
 }
 
 
 
-.foto1{
-background-image: url(./imagenes/3.jpg);
-    
-}
-   
-.foto2{
-background-image: url(./imagenes/4.jpg);
-
-}
-.foto3{
-background-image: url(./imagenes/11.jpg);
-
-}
-.foto4{
-background-image: url(./imagenes/15.jpg);
-
-}
-.foto5{
-background-image: url(./imagenes/7.jpg);
-
-}
-.foto6{
-background-image: url(./imagenes/14.jpg);
-
-}
-.foto7{
-background-image: url(./imagenes/9.jpg);
-}
-
-.foto8{
-background-image: url(./imagenes/17.jpg);
-
-}
-
-.foto9{
-background-image: url(./imagenes/18.jpg);
 
 
-}
+
 
 .tips__sectionencabezado{
  margin-bottom: 30px;
